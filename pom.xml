@@ -18,6 +18,8 @@
 
     <modules>
         <module>../core</module>
+        <module>../common</module>
+        <module>../common-protobuf</module>
         <module>../eureka</module>
         <module>../tcpGateway</module>
         <module>../auth</module>
@@ -62,6 +64,20 @@
                 <artifactId>core</artifactId>
                 <version>1.0.0</version>
             </dependency>
+
+            <dependency>
+                <groupId>avatar.rain</groupId>
+                <artifactId>common</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- common-protobuf-->
+            <dependency>
+                <groupId>avatar.rain</groupId>
+                <artifactId>common-protobuf</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
